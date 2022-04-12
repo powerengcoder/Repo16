@@ -1,11 +1,11 @@
 class Pets {
     constructor(name, legs){
-        this._name = name;
-        this._legs = legs;
+        this.name = name;
+        this.legs = legs;
     }
 
     walk(){
-        var numberOfLegs = this._name + " is walking on "+ this._legs +" legs";
+        var numberOfLegs = `${this.name} is walking on ${this.legs} legs`;
         return numberOfLegs;
     }
 }
@@ -16,7 +16,7 @@ class Dog extends Pets{
     }
 
     bark(){
-        let dogSay = this._name + " says WUF-WUF";
+        let dogSay = `${this.name} says WUF-WUF`;
         return dogSay;
     }
 }
