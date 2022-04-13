@@ -1,7 +1,7 @@
 class Person {
     
   static display() {
-    var message = "Static method is invoked from Person class";
+    const message = "Static method is invoked from Person class";
     return message;
   }
 
